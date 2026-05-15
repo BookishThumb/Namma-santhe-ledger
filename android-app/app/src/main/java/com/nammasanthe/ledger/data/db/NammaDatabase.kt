@@ -22,7 +22,7 @@ class TransactionTypeConverter {
 
 @Database(
     entities = [VendorEntity::class, CustomerEntity::class, TransactionEntity::class],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 @TypeConverters(TransactionTypeConverter::class)
